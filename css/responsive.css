@@ -1,0 +1,114 @@
+/* Style for tablets */
+
+@media only screen and (min-width: 778px) and (max-width: 959px) {
+	.resume-icon::before {
+		width: 76px !important;
+		height: 86px !important;
+		background-size: 76px 86px !important;
+	}
+	.portfolio-icon::before {
+		width: 96px !important;
+		height: 68px !important;
+		background-size: 96px 68px !important;
+	}
+	.contact-icon::before {
+		width: 54px !important;
+		height: 81px !important;
+		background-size: 54px 81px !important;
+	}
+	.resume-icon::after, .portfolio-icon::after, .contact-icon::after {
+		width: 80px !important;
+		height: 80px !important;
+		background-size: 80px 80px !important;
+	}
+	.avatar {
+		width: 132px !important;
+		height: 132px !important;
+		transition: all .3s !important;
+	}
+	.resume-pdf a {
+		transition: all .3s !important;
+		font-size: 1.375em !important;
+	}
+	.about .resume-icon::before {
+		content: '';x
+		transition: all .3s !important;
+		width: 56px !important;
+		height: 66px !important;
+		background-size: 56px 66px !important;
+	}
+}
+
+@media (max-width: 777px) {
+	.menu-nav {
+		margin: 15px auto 0 auto !important;
+	}
+	.hero h1 {
+		min-width: auto !important;
+	}
+	.hero h1::after {
+		display: none !important;
+	}
+	.my-resume, .my-portfolio {
+		float: left !important;
+		margin-top: 30px;
+	}
+	.my-contact {
+		display: none;
+	}
+	.resume-icon::before {
+		width: 76px !important;
+		height: 86px !important;
+		background-size: 76px 86px !important;
+	}
+	.portfolio-icon::before {
+		width: 96px !important;
+		height: 68px !important;
+		background-size: 96px 68px !important;
+	}
+	.resume-icon::after, .portfolio-icon::after, .contact-icon::after {
+		width: 80px !important;
+		height: 80px !important;
+		background-size: 80px 80px !important;
+	}
+	.avatar {
+		width: 132px !important;
+		height: 132px !important;
+		transition: all .3s !important;
+		margin: 0 auto;
+	}
+	.resume-pdf {
+		margin-left: 100px;
+		padding-bottom: 60px;
+	}
+	.resume-pdf a {
+		transition: all .3s !important;
+		font-size: 1.375em !important;
+	}
+	.about .resume-icon::before {
+		content: '';x
+		transition: all .3s !important;
+		width: 52px !important;
+		height: 62px !important;
+		background-size: 52px 62px !important;
+	}
+	.description-project {
+		margin-top: 30px;
+	}
+	.separator {
+		display: none !important;
+	}
+	.info {
+		margin-top: 30px;
+	}
+	.footer {
+		text-align: center;
+	}
+	.footer p {
+		padding: 0 !important;
+	}
+	.linkedin-footer-icon, .github-footer-icon {
+		display: none !important;
+	}
+}
+
