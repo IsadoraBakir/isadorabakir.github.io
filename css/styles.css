@@ -402,6 +402,13 @@ body {
 	display: block;
 }
 
+.thumb-project-easymarine {
+	max-width: 100%;
+	height: 200px;
+	background: url(../img/easymarine.jpg) no-repeat center;
+	display: block;
+}
+
 .thumb-project-surfbot {
 	width: 100%;
 	height: 200px;
