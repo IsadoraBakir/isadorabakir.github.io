@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class WorkExperiencesComponent {
   public workXpItems = [
     {
-      date: 'out/2024',
+      date: 'fev/2024',
       company: 'Thomson Reuters',
       text: 'Atuei como desenvolvedora front-end na plataforma Onvio (Domínio), focada em soluções para contadores. Utilizei principalmente Angular, com forte uso da biblioteca RxJS, além de JavaScript, TypeScript, CSS e HTML para o desenvolvimento de novas funcionalidades e otimização da aplicação. Também fui responsável por criar testes unitários utilizando Jest, garantindo a robustez e confiabilidade do código. Trabalhei em um ambiente ágil, participando de cerimônias semanais e utilizando Azure e GitHub para o controle de versão, assegurando um fluxo contínuo de desenvolvimento e entregas colaborativas.',
     },
